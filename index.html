@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>2020 IONCAMP World Final (Div. 2)</title>
+        <link type="text/css" rel="stylesheet" href="libs/style/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="libs/style/sticky-footer.css">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="app">
+        <!-- top navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">2020 IONCAMP World Final (Div. 2)</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <!-- <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul> -->
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <!-- page content -->
+        <div class="rank-list">
+            <div id="rank-{{$index}}" class="rank-list-item clearfix" v-for="team in ranks" track-by="user_id">
+                <div class="rank">{{ team.rank_show }}</div>
+                <div class="content">
+                    <div class="name">{{ users[team.user_id].college }}--{{ users[team.user_id].name }}</div>
+                    <ul class="problems">
+                        <li v-for="n in p_count" class="{{team.problem[n+1]|problemStatus}} p-{{n+1}} item">
+                            <div class="{{team.problem[n+1]|problemStatus}} p-content">{{team.problem[n+1] | submissions}}</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="penalty">{{ team.penalty | toMinutes }}</div>
+                <div class="solved">{{ team.score }}</div>
+            </div>
+        </div>
+
+        <!-- <pre style="margin:50px 10px;">{{ $data | json }}</pre> -->
+
+        <!-- sticky footer -->
+        <footer class="footer">
+            <div class="container clearfix">
+                <p class="text-muted pull-left"><button @click="reset">Reset standings</button></p>
+            </div>
+        </footer>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="libs/js/jquery.min.js"></script>
+        <script type="text/javascript" src="libs/js/underscore-min.js"></script>
+        <script type="text/javascript" src="libs/js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="libs/js/vue.1.js"></script>
+        <script type="text/javascript" src="hiho-resolver.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+/*
+    main.css
+ */
+
+
+/*
+    reset bootstrap
+ */
+.navbar {
+    margin-bottom: 0;
+}
+
+/*
+    common
+ */
+.app {
+    color: white;
+}
+.rank-list {
+    background: repeating-linear-gradient(
+      180deg,
+      #3e3e3e 0px,
+      #3e3e3e 103px,
+      black 103px,
+      black 206px
+    );
+}
+.item {
+    border-radius: 3px;
+}
+.rank, .content, .problems li {
+    float: left;
+}
+.solved, .penalty {
+    float: right;
+}
+.rank, .solved, .penalty {
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 83px;
+}
+.rank-list-item {
+    padding: 10px;
+    position: relative;
+    background: transparent;
+}
+
+.ac {
+    background-color: #5eb95e;
+}
+.failed, .WA {
+    background-color: #dd514c;
+}
+.frozen {
+    background-color: #607D8B;
+}
+.untouched {
+    background-color: #1f1f1f;
+    color: transparent;
+}
+
+.selected {
+    background-color: #406b82;
+}
+
+.flash {
+    animation: flashing 500ms infinite;
+    -webkit-animation: flashing 500ms infinite; [>Safari and Chrome<]
+}
+.uncover {
+    background-color: #BD995B;
+    animation: rotating 600ms infinite;
+    -webkit-animation: rotating 600ms infinite; [>Safari and Chrome<]
+}
+
+@keyframes flashing {
+    from { background-color: #8a6d3b }
+    to { background-color: #BD995B }
+}
+
+@-webkit-keyframes flashing {[>Safari and Chrome<]
+    from { background-color: #8a6d3b }
+    to { background-color: #BD995B }
+}
+
+@keyframes rotating {
+    from { transform: rotateX(0); }
+    to { transform: rotateX(180deg); }
+}
+
+@-webkit-keyframes rotating {/*Safari and Chrome*/
+    from { transform: rotateX(0); }
+    to { transform: rotateX(180deg); }
+}
+
+/*
+    index
+ */
+
+.rank {
+    width: 58px;
+    height: 58px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 83px;
+    margin-right: 15px;
+}
+.name {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.problems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.problems .item {
+    padding: 2px;
+    margin-right: 5px;
+    width: 80px;
+    text-align: center;
+}
+.problems .item .p-content {
+    padding: 1px 0;
+    font-size: 15px;
+}
+.solved {
+    width: 70px;
+}
+.penalty {
+    width: 100px;
+}
