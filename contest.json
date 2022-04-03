@@ -1,52 +1,52 @@
 {
-  "problem_count": 8,
+  "problem_count": 7,
   "solutions": {
     "1": {
-      "user_id": "ITIS_Hainam",
+      "user_id": "ITIS_HuyHoang",
       "problem_index": 1,
       "verdict": "P0",
       "submitted_seconds": 1
     },
     "2": {
-      "user_id": "ITIS_Hainam",
-      "problem_index": 1,
-      "verdict": "P0",
+      "user_id": "Team3_ITPTIT_SyTien",
+      "problem_index": 2,
+      "verdict": "P100",
       "submitted_seconds": 2
     },
     "3": {
-      "user_id": "ITIS_thang44",
-      "problem_index": 8,
+      "user_id": "ITIS_PhamNam",
+      "problem_index": 1,
       "verdict": "P0",
       "submitted_seconds": 3
     },
     "4": {
-      "user_id": "ITIS_XuanDat",
-      "problem_index": 8,
-      "verdict": "P0",
+      "user_id": "ITIS_Hainam",
+      "problem_index": 2,
+      "verdict": "P2",
       "submitted_seconds": 4
     },
     "5": {
-      "user_id": "axolotI",
-      "problem_index": 8,
+      "user_id": "ITIS_chicken",
+      "problem_index": 1,
       "verdict": "P0",
       "submitted_seconds": 5
     },
     "6": {
-      "user_id": "ITIS_XuanDat",
-      "problem_index": 8,
-      "verdict": "P0",
+      "user_id": "ITIS_Hainam",
+      "problem_index": 2,
+      "verdict": "P2",
       "submitted_seconds": 6
     },
     "7": {
-      "user_id": "ISP_GiangPD",
-      "problem_index": 8,
-      "verdict": "P0",
+      "user_id": "Team3_LamAnh",
+      "problem_index": 1,
+      "verdict": "P48",
       "submitted_seconds": 7
     },
     "8": {
-      "user_id": "ISP_AnhDN",
-      "problem_index": 8,
-      "verdict": "P0",
+      "user_id": "Team3_NguyenManhHuong",
+      "problem_index": 2,
+      "verdict": "P47",
       "submitted_seconds": 8
     },
     "9": {
@@ -3270,38 +3270,8 @@
       "college": "PTIT",
       "is_exclude": false
     },
-    "axolotI": {
-      "name": "axolotI",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_GiangPD": {
-      "name": "ISP_GiangPD",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_AnhDN": {
-      "name": "ISP_AnhDN",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_HaiND": {
-      "name": "ISP_HaiND",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_ChiBTQ": {
-      "name": "ISP_ChiBTQ",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "ITIS_PhamNam": {
       "name": "ITIS_PhamNam",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "JimNef": {
-      "name": "JimNef",
       "college": "PTIT",
       "is_exclude": false
     },
@@ -3310,48 +3280,13 @@
       "college": "PTIT",
       "is_exclude": false
     },
-    "southcode": {
-      "name": "southcode",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_ManhDX": {
-      "name": "ISP_ManhDX",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "Team3_NguyenDucAnhTu": {
       "name": "Team3_NguyenDucAnhTu",
       "college": "PTIT",
       "is_exclude": false
     },
-    "ITIS_nhatminh": {
-      "name": "ITIS_nhatminh",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "Team3_VanThi": {
-      "name": "Team3_VanThi",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_GiangNam": {
-      "name": "ISP_GiangNam",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "Team3_ITPTIT_SyTien": {
       "name": "Team3_ITPTIT_SyTien",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ITIS_NgocMinh": {
-      "name": "ITIS_NgocMinh",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "Team6_NickKen": {
-      "name": "Team6_NickKen",
       "college": "PTIT",
       "is_exclude": false
     },
@@ -3365,28 +3300,8 @@
       "college": "PTIT",
       "is_exclude": false
     },
-    "ISP_QuynhKTX": {
-      "name": "ISP_QuynhKTX",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "ITIS_chicken": {
       "name": "ITIS_chicken",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_VuNA": {
-      "name": "ISP_VuNA",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_ThuongPTH": {
-      "name": "ISP_ThuongPTH",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_DongND": {
-      "name": "ISP_DongND",
       "college": "PTIT",
       "is_exclude": false
     },
@@ -3395,38 +3310,8 @@
       "college": "PTIT",
       "is_exclude": false
     },
-    "team3_Hongquan": {
-      "name": "team3_Hongquan",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ITIS_Kagamine": {
-      "name": "ITIS_Kagamine",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_KienNV": {
-      "name": "ISP_KienNV",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_LongVT": {
-      "name": "ISP_LongVT",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ITIS_powder": {
-      "name": "ITIS_powder",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "ITIS_HuyHoang": {
       "name": "ITIS_HuyHoang",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "Team4_DuyThong": {
-      "name": "Team4_DuyThong",
       "college": "PTIT",
       "is_exclude": false
     },
@@ -3435,36 +3320,26 @@
       "college": "PTIT",
       "is_exclude": false
     },
-    "ISP_AnhNH": {
-      "name": "ISP_AnhNH",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ISP_GiangNH": {
-      "name": "ISP_GiangNH",
-      "college": "PTIT",
-      "is_exclude": false
-    },
-    "ITIS_TLam": {
-      "name": "ITIS_TLam",
-      "college": "PTIT",
-      "is_exclude": false
-    },
     "Team3_NguyenManhHuong": {
       "name": "Team3_NguyenManhHuong",
       "college": "PTIT",
       "is_exclude": false
     },
-    "ISP_MinhHN": {
-      "name": "ISP_MinhHN",
+    "Team3_LamAnh": {
+      "name": "Team3_LamAnh",
       "college": "PTIT",
       "is_exclude": false
     },
-    "Team3_ITPTIT-LNM": {
-      "name": "Team3_ITPTIT-LNM",
+    "ITIS_CODE_bEaST": {
+      "name": "ITIS_CODE_bEaST",
       "college": "PTIT",
       "is_exclude": false
-    }
+    },
+    "ITIS_CongHuaan": {
+      "name": "ITIS_CongHuaan",
+      "college": "PTIT",
+      "is_exclude": false
+    },
   }
 }
 
